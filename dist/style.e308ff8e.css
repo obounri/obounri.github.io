@@ -246,8 +246,8 @@ footer ul {
 
 .delimiter {
     height: 2px;
-    background: var(--hot-secondary);
-    background: linear-gradient(90deg, var(--hot-secondary) 0%, var(--white) 50%, var(--text) 100%); 
+    background: rgb(228,255,10);
+    background: linear-gradient(90deg, rgba(228,255,10,1) 0%, rgba(255,255,255,1) 50%, rgba(0,189,170,1) 100%);
 }
 
 nav ul h1 [class*="fa-"] {
@@ -286,19 +286,19 @@ nav ul h1 [class*="fa-"] {
     .text ul {
         justify-content: flex-end;
     }
-    .text.r-text {
+    .reverse .text{
         order: 1;
         grid-column: 1/7;
         text-align: left;
     }
-    .project-image.r-image {
+    .reverse .project-image {
         grid-column: 6/11;
         border-left: none;
         border-right: 1px solid var(--primary);
         border-top: 1px solid var(--primary);
 
     }
-    .text.r-text ul {
+    .reverse .text ul {
         justify-content: flex-start;
     }
 }
