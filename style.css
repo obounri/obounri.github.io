@@ -191,7 +191,22 @@ article .project-image {
     justify-content: flex-start;
 }
 
+#techs {
+    /* background-color: var(--primary); */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 1rem 3rem 1rem;
+}
 
+#techs h2 {
+    font-size: 190%;
+    margin-bottom: 5rem;
+}
+
+#techs ul {
+    gap: 2rem;
+    font-size: 150%;
+}
 
 #contact {
     display: flex;
