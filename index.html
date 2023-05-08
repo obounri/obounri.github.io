@@ -25,9 +25,9 @@
     </nav>
     <section id="landing">
         <p class="name">Hi, my name is <span>Othmane Bounri.</span></p>
-        <h2>I'm a Front End developer.</h2>
-        <p>I turn web designs to code.</p>
-        <p>Currently, I'm building my <a href="#landing">portfolio</a>.</p>
+        <h2>I'm a Full Stack developer.</h2>
+        <p>I turn web designs to code, and build backends.</p>
+        <p>Currently, I am looking to integrate a new team where I can solidify my knowledge and skill, put them to use, and learn more.</p>
     </section>
     <div class="delimiter"></div>
     <div id="projects-section">
@@ -35,37 +35,38 @@
             <h2>Projects I'm proud of</h2>
             <article>
                 <div class="text">
-                    <h4>About</h4>
-                    <h3>Title of the project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit molestias rerum mollitia repellendus provident repudiandae quae aut architecto assumenda! Tenetur placeat laboriosam veniam unde magnam atque numquam inventore debitis rem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui esse repellat iste atque fuga, eaque eveniet, enim ex corporis tempore magnam pariatur soluta corrupti dolore nihil laudantium, numquam suscipit nulla.</p>
+                    <h4>A Pong game, where users can interact, chat and play with each other</h4>
+                    <h3>Transcendence</h3>
+                    <p>In this project, I was in charge of building the backend using Nestjs, where I exposed secure endpoints that the client uses to fetch, create, update and delete ressources (users, games, etc.), with a secure session management system. I used TypeORM that facilitates data sanitizing after client-side input validation. The user authenticates using a third-party OAuth system (42 Intranet, Google) and is able to enable two-factor authentication. For this I used Google Authenticator. To bundle the app, I used Docker to containerize the services (front-end, back-end, PostgreSQL database), and to lunch the app easily.</p>
                     <h4>Technologies used include:</h4>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
+                        <li>Next.js</li>
+                        <li>NestJS</li>
+                        <li>TypeScript</li>
+                        <li>PostgreSQL</li>
                     </ul>
                 </div>
-                <img class="project-image" src="http://placecorgi.com/1100/700" alt="img alt">
+                <img class="project-image" src="./imgs/pong.png" alt="img alt">
             </article>
             <article class="reverse">
                 <div class="text">
-                    <h4>About</h4>
-                    <h3>Title of the project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit molestias rerum mollitia repellendus provident repudiandae quae aut architecto assumenda! Tenetur placeat laboriosam veniam unde magnam atque numquam inventore debitis rem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui esse repellat iste atque fuga, eaque eveniet, enim ex corporis tempore magnam pariatur soluta corrupti dolore nihil laudantium, numquam suscipit nulla.</p>
+                    <h4>A single-page app that turns a simple prompt to a creative one, and generates an image from it</h4>
+                    <h3>Imagen</h3>
+                    <p>For this app, I chose a minimalistic landing page consisting of an input and sumbit button, submitting the prompt results in generating a longuer creative prompt and the image generated from it, the user can choose to redo the operation with the same input, download the image or start from the beginning. The initial input is sent to the chat completion endpoint from the OpenAI API and the latter returns a longuer and creative prompt, which is then sent to a model trained on MidJourney images (<a href="https://replicate.com/prompthero/openjourney" target="_blank" rel="noopener noreferrer">replicate/Openjourney</a>) to generate the image.</p>
                     <h4>Technologies used include:</h4>
                     <ul>
-                        <li>HTML</li>
+                        <li>NextJS</li>
                         <li>CSS</li>
-                        <li>JavaScript</li>
+                        <li>TypeScript</li>
                     </ul>
                 </div>
-                <img class="project-image" src="http://placecorgi.com/1100/700" alt="img alt">
+                <img class="project-image" src="./imgs/imagen2.png" alt="img alt">
             </article>
             <article>
                 <div class="text">
-                    <h4>About</h4>
-                    <h3>Title of the project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit molestias rerum mollitia repellendus provident repudiandae quae aut architecto assumenda! Tenetur placeat laboriosam veniam unde magnam atque numquam inventore debitis rem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui esse repellat iste atque fuga, eaque eveniet, enim ex corporis tempore magnam pariatur soluta corrupti dolore nihil laudantium, numquam suscipit nulla.</p>
+                    <h4>This Portfolio</h4>
+                    <h3>obounri.me</h3>
+                    <p>In an attempt to use my skills, showcase my projects, and have a better reach, I made this responsive portfolio. You can see me resume <a href="">here</a>. For contact, here is my <a href="https://www.linkedin.com/in/othmane-bounri/" target="_blank">LinkedIn</a>. You can also take a look at my <a href="https://github.com/obounri/" target="_blank">Github</a> for source code of the projects I mentionned.</p>
                     <h4>Technologies used include:</h4>
                     <ul>
                         <li>HTML</li>
@@ -73,7 +74,7 @@
                         <li>JavaScript</li>
                     </ul>
                 </div>
-                <img class="project-image" src="http://placecorgi.com/1100/700" alt="img alt">
+                <img class="project-image" src="./imgs/portfolio.png" alt="img alt">
             </article>
         </section>
     </div>
@@ -97,7 +98,7 @@
     <section id="contact">
         <p><span>Contact me</span></p>
         <p>I'll be happy to get in touch with you, talk about a job opportunity, ask me something or simply chat :) .</p>
-        <a href="mailto:obounri.dev@gmail.com" class="contact-button" target="_blank">Email me</a>
+        <a href="mailto:othmane.bounri@gmail.com" class="contact-button" target="_blank">Email me</a>
     </section>
     <div class="delimiter"></div>
     <footer>
@@ -105,9 +106,9 @@
         <ul>
             <li><a href="https://www.linkedin.com/in/othmane-bounri/" target="_blank"><span class="fa-brands fa-linkedin"></span><span class="sr-only">LinkedIn</span></a></li>
             <li><a href="https://github.com/obounri/" target="_blank"><span class="fa-brands fa-github"></span><span class="sr-only">Github</span></a></li>
-            <li><a href="mailto:obounri.dev@gmail.com" target="_blank"><span class="fa-solid fa-envelope"></span></span><span class="sr-only">Mail</span></a></li>
+            <li><a href="mailto:othmane.bounri@gmail.com" target="_blank"><span class="fa-solid fa-envelope"></span></span><span class="sr-only">Mail</span></a></li>
         </ul>
-        <p><small>© 2022 Othmane Bounri. All rights reserved.</small></p>
+        <p><small>© 2023 Othmane Bounri.</small></p>
     </footer>
 </body>
 </html>

@@ -153,6 +153,8 @@ nav ul h1 a:hover {
 
 article {
     color: var(--primary);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 article .project-image {
